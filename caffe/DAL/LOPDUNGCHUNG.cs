@@ -13,7 +13,7 @@ namespace QLTV.DAL
 {
     class LOPDUNGCHUNG
     {
-        string chuoiketnoi = @"Data Source=DESKTOP-JMGV6AK\HUUTUAN;Initial Catalog=QLCF_14_10;User ID=sa;Password=12345";
+        string chuoiketnoi = @"Data Source=NGUYEN_AN\SQLEXPRESS;Initial Catalog=QLCF_14_10;Integrated Security=True";
         // string chuoiketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + @"\db_Gucafe.mdf;Integrated Security=True";
         SqlConnection conn;
         public LOPDUNGCHUNG()
