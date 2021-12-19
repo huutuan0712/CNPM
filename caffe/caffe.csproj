@@ -62,6 +62,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\BLLQUANLY.cs" />
+    <Compile Include="DAL\DALQUANLY.cs" />
     <Compile Include="DAL\DB.cs" />
     <Compile Include="DAL\LOPDUNGCHUNG.cs" />
     <Compile Include="GUI\frm_DangNhap.cs">
@@ -153,8 +155,6 @@
   <ItemGroup>
     <None Include="Resources\view-details.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
